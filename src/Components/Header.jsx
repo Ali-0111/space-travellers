@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import logoLink from '../assets/planetLogo.png';
 
 const Header = () => (
-  <header>
+  <header className="main-head">
     <a href="/" className="logoDiv">
       <img src={logoLink} alt="Space Travelers Logo" />
       <h1>Space Traveller&apos;s Hub</h1>
